@@ -1,0 +1,50 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: steelblue;
+    background-image: url(https://i.ibb.co/51YMQ9M/1600w-BGI2-Nb-M4ltk.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 100%;
+  }
+  
+  #encabezado {
+    width: 60vw;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .opcion {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    background: white;
+    align-items: center;
+    flex-direction: column;
+   
+
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .opcion:hover{
+       background: lightgray;
+  }
